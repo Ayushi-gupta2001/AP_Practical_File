@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<tittle>HTML WEB PAGE FORM</tittle>
+<style>
+body
+{
+	background-color:#F2F3F4  ;
+}
+div
+{
+	background-color:#EAEDED ;
+	margin:20px 300px;
+	padding:10px 20px;
+	border:1px solid #E5E8E8  ;
+}
+h1
+{
+	color:black;
+}
+form
+{
+	font-size:15px;
+}
+#para
+{
+   width:100%;
+   background-color: #138D75;
+   border:none;
+   padding:14px 28px;
+}
+</style>
+</head>
+<body>
+	<div>
+<h1>Your basic info</h1>
+<form action="message.html">
+	Name:<br><input type="text" name="username" size="60" autocomplete="off"><br><br>
+	Email:<br><input type="email" name="email" size="60"><br><br>
+    Password:<br><input type="password" name="password" size="60"><br><br>
+    Age:<br>
+    <input type="radio" name="gender">Under 16<br>
+    <input type="radio" name="gender">16 or older<br>
+    <h1>Your profile</h1>
+    Biography:<br>
+    <input type="text" name="bio" size="60"><br><br>
+    Courses:<br>
+    <select id="course" name="course">
+    	<option value="ME">Mechanical engineering</option>
+    	<option value="CE">Civil engineering</option>
+    	<option value="IT">Information technology</option>
+    	<option value="CS">Computer science engineering</option>
+    </select><br><br>
+    Interest:<br>
+    <input type="radio" name="interesrt">Engineer<br>
+    <input type="radio" name="interest">Bussiness man<br><br>
+     <input type="submit" id="para" value="submit">
+</form>
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+body
+{
+	background-color:#F5D899;
+	font-family:Arial;
+}
+.header
+{
+	text-align: center;
+	font-size:15px;
+}
+.row
+{
+	margin-left:200px;
+    margin-top:10px;
+}
+.column
+{
+	padding-left:50px;
+	float:left;
+	width:34.3%;
+}
+.content
+{
+	background-color: white;
+	width:100%;
+}
+p
+{
+	padding-left:50px;
+	padding-bottom:20px;
+}

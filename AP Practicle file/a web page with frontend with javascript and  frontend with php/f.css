@@ -1,0 +1,41 @@
+body
+{
+	box-sizing: border-box;
+    border: 3px solid #01153C;
+   background-color: #A6B6CD;
+}
+legend
+{
+	color: #34495E ;
+}
+.table
+{
+   margin: auto;
+}
+input[type=text],input[type=Password],input[type=email],textarea
+{
+	padding:5px;
+	border-radius:2px;
+	background-color: lightgrey;
+}
+input[type=radio]
+{
+	margin-left:20px;
+ }
+.abcd
+{
+	margin-left: 200px;
+}
+input[type=submit],input[type=reset]
+{
+	background-color:#5FBA7F;
+	width:40%;
+    height: 30px;
+    border-left:black;
+ }
+.header
+{ 
+	text-align: center;
+    background-color: #E99E7D;
+    padding-top:5px;
+}

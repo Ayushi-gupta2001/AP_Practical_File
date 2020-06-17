@@ -1,0 +1,57 @@
+body
+{
+	background-image: url("b.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h1
+{
+	text-align:center;
+	padding:10px;
+	font-size:30px;
+}
+ul
+{
+	list-style-type:none;
+	background-color:black;
+	overflow:hidden;
+}
+li
+{
+   float: left;
+}
+ li a
+{
+	display:block;
+	padding:14px 16px;
+	text-decoration:none;
+	color:white;
+}
+li a:hover
+{
+	background-color: #D7DBDD ;
+	color:blue;
+}
+h2
+{
+    text-align:center;
+    font-size:35px;
+}
+p
+{
+	text-align:center;
+	font-size:25px;
+}
+#coloumn
+{
+	margin:0px;
+	width:31%;
+	float:left;
+	border: 1px solid white;
+	padding-left: 25px;
+	background-color:#D8E6E8;
+}
+#para
+{
+	background-color:#D8E6E8;
+}

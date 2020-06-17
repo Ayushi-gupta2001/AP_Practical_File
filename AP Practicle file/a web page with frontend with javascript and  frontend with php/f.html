@@ -1,0 +1,70 @@
+<html>
+<head>
+<title>Registration Form</title>
+<link rel="stylesheet" href="f.css">
+<script type="text/javascript" src="f.js">
+</script>
+</head>
+<body>
+  <div class="header">
+    <table width="100%">
+      <th class="header"><h1>Login form using PHP</h1></th>
+    </table>
+      </div>
+<form method="POST" action="http://localhost/AP/f.php" name="regfrom" onsubmit="return validate()">
+<fieldset>
+<div class="table">
+  <table width="100%">
+<th>Username:</label>
+<input type="text" placeholder="Usename" name="username" autocomplete="off" ></th>
+<th><label>Password:</label>
+<input type="password" placeholder="Password"  name="password" id="a1" autocomplete="off" ></th>
+  </table>
+  <br>
+</div>
+</fieldset>
+<hr>
+<fieldset>
+  <legend><b>Personal details:<b></legend>
+  <table width="100%">
+<th><label>First Name:</label>
+<input type="text"  placeholder="First name" id="a2" autocomplete="off" ></th>
+<th><label>Last Name:</label>
+  <input type="text" placeholder="Last name" autocomplete="off"  >
+  </th>
+  </table>
+  <label class="abcd">Gender:</label>
+  <input type="radio" name="ab" value="male">Male
+  <input type="radio" name="ab"  value="female">Female
+  <input type="radio" name="ab"  value="others">Others
+  <br>
+  </fieldset>
+  <hr>
+  <fieldset>
+    <legend><b>Contact Info:</b></legend>
+    <table width="100%">
+      <th><label>E-mail:</label>
+        <input type="email" id="a3"  placeholder="Email id" autocomplete="off" ></th>
+      <th><label>Mobile No:</label>
+      <input type="text" id="a4"  placeholder="Mobile number" autocomplete="off" ></th>
+    </table>
+     <br>
+    <fieldset>
+      <legend><b>Address:</b></legend>
+      <table width="100%">
+      <th><label>Permanent Address:</label>
+      <br>
+<textarea name="name" rows="5" cols="40" id="a5"  placeholder="Address"></textarea></th>
+      <th><label>Correspondence Address:</label>
+      <br>
+      <textarea name="name" rows="5" cols="40" placeholder="Correspondence address"></textarea></th>
+      </table>
+      </fieldset>
+</fieldset>
+<table width="100%">
+<th><input type="submit" value="Submit" name="submit"></th>
+<th><input type="reset"  value="Clear"></th>
+</table>
+</form>
+</body>
+</html>
